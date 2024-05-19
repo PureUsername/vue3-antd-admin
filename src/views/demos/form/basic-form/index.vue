@@ -75,7 +75,7 @@
   });
 
   const [SchemaForm, SchemaFormInstance] = useForm({
-    labelWidth: 200,
+    labelWidth: 160,
     schemas,
     actionColOptions: {
       span: 24,
@@ -112,10 +112,10 @@
       SchemaFormInstance.setSchemaFormProps({
         layout: val,
         rowProps: { gutter: 20 },
-        labelWidth: null,
+        labelWidth: 111,
       });
     } else {
-      SchemaFormInstance.setSchemaFormProps({ layout: val, labelWidth: 200 });
+      SchemaFormInstance.setSchemaFormProps({ layout: val, labelWidth: 160 });
     }
   });
 
